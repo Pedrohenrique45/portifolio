@@ -34,11 +34,11 @@ section.inicio{
     margin: 20px 15px;
     width: 40px;
     border-radius: 50%;
-    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.562);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.562);
 }
 
 .inicio .logos img:hover{ /* animação dos links e imagens das redes sociais*/
-    border: 1px solid #BBF2D3;
+    border: 1px solid #00000041;
     transform: translate(-3px,-3px);
     transition: 0.4s;
 }
@@ -123,25 +123,25 @@ nav{
         justify-content: space-between;
         padding-left: 50px;
         padding-right: 100px;
-        margin: none;
+        margin: 20px;
 
     }
     
     .campos main{
        display: flex;
        align-items: center;
+       
        flex-direction: column;
        justify-content: space-between;
-       width: 500px;
-       margin-left: 450px;
-    
+       width: 700px;
+       margin-left: 700px;
     }
-
+    
     #dev{
         text-align: center;
         padding: 0 20px;
     } 
-
+    
     #des{
         text-align: center;
         padding: 0px 28px;
